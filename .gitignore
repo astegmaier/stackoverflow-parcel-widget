@@ -1,0 +1,4 @@
+node_modules
+test-consumer/dist-widget
+.parcel-cache
+.DS_Store

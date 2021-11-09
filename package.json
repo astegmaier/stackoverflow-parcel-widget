@@ -1,0 +1,22 @@
+{
+  "name": "stackoverflow-parcel-widget",
+  "version": "1.0.0",
+  "author": "Andrew Stegmaier",
+  "description": "Example of how to build a react widget with parcel",
+  "scripts": {
+    "serve": "http-server test-consumer",
+    "build:widget": "parcel build widget/index.jsx --dist-dir test-consumer/dist-widget --no-optimize",
+    "watch:widget": "parcel watch widget/index.jsx --dist-dir test-consumer/dist-widget",
+    "clean": "rimraf test-consumer/dist-widget && rimraf .parcel-cache"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
