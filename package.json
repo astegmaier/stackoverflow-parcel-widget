@@ -5,7 +5,7 @@
   "description": "Example of how to build a react widget with parcel",
   "scripts": {
     "serve": "http-server test-consumer",
-    "build:widget": "parcel build widget/index.jsx --dist-dir test-consumer/dist-widget --no-optimize",
+    "build:widget": "parcel build widget/index.jsx --dist-dir test-consumer/dist-widget --no-source-maps",
     "watch:widget": "parcel watch widget/index.jsx --dist-dir test-consumer/dist-widget",
     "clean": "rimraf test-consumer/dist-widget && rimraf .parcel-cache"
   },
